@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using Newtonsoft.Json;
-
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Text.Json;
 
 using Task11.Models;
 
@@ -29,7 +28,7 @@ namespace Task11.Controllers
 					students.Add(new Student() { Name = (string)reader[1], Patronomic = (string)reader[2], Surname = (string)reader[0] });
 				}
 			}
-			return JsonConvert.SerializeObject(students);
+			return JsonSerializer.Serialize(students);
 		}
 		[HttpDelete]
 		public void Delete()
