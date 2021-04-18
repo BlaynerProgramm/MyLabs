@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task12.ConsoleApp", "Task12
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaptchaGenerator_WPF", "CaptchaGenerator.WPF\CaptchaGenerator_WPF.csproj", "{6F9F8FF1-AE31-492B-99F9-11D654A48A45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBSlider", "RGBSlider\RGBSlider.csproj", "{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGBSlider", "RGBSlider\RGBSlider.csproj", "{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArray_Console", "SortArray_Console\SortArray_Console.csproj", "{4FDCF413-649A-4401-9CEC-906EE2470302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDCF413-649A-4401-9CEC-906EE2470302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDCF413-649A-4401-9CEC-906EE2470302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDCF413-649A-4401-9CEC-906EE2470302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDCF413-649A-4401-9CEC-906EE2470302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
