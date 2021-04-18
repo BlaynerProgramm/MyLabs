@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task12.Api", "Task12.Api\Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task12.ConsoleApp", "Task12.ConsoleApp\Task12.ConsoleApp.csproj", "{9EA6B007-834C-4293-8D53-BE38F4CFA55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaGenerator_WPF", "CaptchaGenerator.WPF\CaptchaGenerator_WPF.csproj", "{6F9F8FF1-AE31-492B-99F9-11D654A48A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaptchaGenerator_WPF", "CaptchaGenerator.WPF\CaptchaGenerator_WPF.csproj", "{6F9F8FF1-AE31-492B-99F9-11D654A48A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBSlider", "RGBSlider\RGBSlider.csproj", "{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{6F9F8FF1-AE31-492B-99F9-11D654A48A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9F8FF1-AE31-492B-99F9-11D654A48A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9F8FF1-AE31-492B-99F9-11D654A48A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5190BC-CBCC-439F-B832-D2AA293BF4D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
