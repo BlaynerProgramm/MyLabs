@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Task1
 {
@@ -14,7 +11,7 @@ namespace Task1
 		public int SideOfSquare { get; init; }
 		public Square(int n)
 		{
-			if(n <= 0)
+			if (n <= 0)
 			{
 				throw new ArgumentException("Введите валидное число");
 			}
@@ -31,12 +28,22 @@ namespace Task1
 		public string DrowSquare()
 		{
 			StringBuilder sb = new();
-			for (int i = 0; i <= SideOfSquare; i++)
+			for (int i = 0; i <= SideOfSquare - 1; i++)
 			{
-				for (int j = 0; j <= SideOfSquare; j++)
+				for (int j = 0; j <= SideOfSquare - 1; j++)
 				{
+
+					if (i == SideOfSquare / 2 && j == SideOfSquare / 2)
+					{
+						sb.Append(' ');
+						continue;
+					}
+					sb.Append('*');
 				}
+				sb.Append('\n');
 			}
+
+			return sb.ToString();
 		}
 	}
 }

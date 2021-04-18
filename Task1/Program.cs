@@ -6,7 +6,9 @@ namespace Task1
 	{
 		private static void Main()
 		{
-			Console.WriteLine(DisintedNumber.DecomposeNumber(7));
+			Console.WriteLine(DisintedNumber.DecomposeNumber(Convert.ToInt32(Console.ReadLine())));
+
+			Console.WriteLine(new Square(Convert.ToInt32(Console.ReadLine())).DrowSquare());
 		}
 	}
 }
